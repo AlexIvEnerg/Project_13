@@ -2,7 +2,7 @@ import java.util.Comparator;
 
 public class MinMax<T extends Comparable<T>>  {
     private T[] array;
-    public  MinMax (T[] arr) {
+    public  MinMax(T[] arr) {
         this.array = arr;
     }
     public T MinEl(T[] array){
